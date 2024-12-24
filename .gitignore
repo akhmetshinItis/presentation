@@ -1,0 +1,68 @@
+# General .NET .gitignore file
+
+# Ignore Visual Studio temporary files, build results, and
+# user-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Visual Studio 2019/2022
+.vscode/
+*.code-workspace
+
+# Build results
+bin/
+obj/
+out/
+
+# IIS Express
+/.vs/
+
+# Entity Framework migrations
+migrations/
+
+# User-specific files
+*.swp
+*~
+.project
+.idea/
+.vscode/
+.ionide/
+
+# Logs
+*.log
+logs/
+log/
+
+# npm package files
+node_modules/
+
+# Coverage results
+coverage/
+*.coverage
+*.coveragexml
+*.codecov
+
+# Publish output
+*.publishsettings
+
+# Docker files
+**/Dockerfile
+**/docker-compose*
+
+# Sensitive configuration files
+appsettings.*.json
+secrets.json
+
+# Rider IDE
+.idea/
+*.iml
+
+# Static files (ensure public directory is included)
+!/public/
